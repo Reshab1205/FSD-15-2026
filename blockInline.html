@@ -28,6 +28,9 @@
         <h4>Insta Login</h4>
         <label>username: </label>
         <input type="text" placeholder="Enter Your Username. ......." />
+        <label>Password:</label>
+        <input id="password" type="password" />
+        <img src="" alt="nature beauty greenery">
     </form>
     
     <button type="submit" onclick="hello()" >Hello</button>
@@ -36,7 +39,8 @@
     <script>
         function hello() {
             document.getElementById("hello").innerText = "Hello"
-            document.createElement = "button"
+            const data = document.getElementById("password").value 
+            console.log(data)
         }
     </script>
 </body>
