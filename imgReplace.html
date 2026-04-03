@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="img1" src="Uploads/sun-sets-behind-mountain-ranges-600nw-2479236003.webp">
+        <button onclick="replaceImg()" >Replace</button>
+    </div>
+    <script>
+        function replaceImg() {
+            const img = document.getElementById('img1')
+            if(img.style.display === 'block') {
+                img.style.display = 'none'
+            } else {
+                img.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
