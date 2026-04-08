@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3JcJkHwDks4Z34GkhcYU60ggVhCvFmSY3-Q&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            padding: 20px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        }
+        input, label {
+            margin: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>FullName: </label>
+      <input type="text" placeholder="Enter your Name...." />
+      <br>
+      <label>City: </label>
+      <input type="text" placeholder="Enter your City...." />
+      <br>
+      <label>Gender: </label>
+      <label>Male: </label>
+      <input type="radio" name="gender" value="Male"/>
+      <label>Female: </label>
+      <input type="radio" name="gender" value="Female"/>
+      <label>Others: </label>
+      <input type="radio" name="gender" value="Others"/>
+      <br>
+      <label>DOB:</label>
+      <input type="date"  />
+      <br>
+      <label>Email: </label>
+      <input type="email" placeholder="Enter your Email...." />
+      <br>
+      <label>Password:</label>
+      <input type="password" placeholder="Enter your Name...." />
+      <br>
+      <button>Register</button>
+    </form>
+  </body>
+</html>
