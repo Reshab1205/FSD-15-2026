@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            display: none;
+        }
+        button:hover + p {
+            display: block;
+        }
+        .btn-grad {
+  background-image: linear-gradient(to right, #215f00 0%, #e4e4d9 51%, #215f00 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: #215f00;
+    margin: 10px;
+}
+#three {
+    /* display: none; */
+    visibility: hidden;
+}
+    </style>
+</head>
+<body>
+    <!-- <button class="btn-grad">Hello</button>
+    <p>Hello I am Reshab</p> -->
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div id="three" class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+</body>
+</html>
