@@ -115,3 +115,59 @@
 // if(a === 12) {
 //     console.log(a)
 // }
+
+// const a = 10
+
+// if(a === 10) {
+//     const a = 12;
+//     console.log(a)
+// }
+
+// console.log(a)
+
+// a = 10
+// var a;
+// console.log(a)
+
+
+// const arr = [1,2,3,4,5, true, "Reshab", "Indore", [6,7], {"name": "Bhopal"}]
+// console.log( typeof arr)
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[parseInt((arr.length - 1) / 2)])
+
+
+// console.log(arr[(arr.length - 2)] + arr[1])
+
+
+
+const arr = ["Apple", "ball", "Cat"]
+
+// arr.forEach
+
+// for(let i = 0; i <= arr.length; i++) {
+//     console.log(arr[i])
+// }
+// console.log(typeof arr)
+
+
+const obj = {
+    name:"Reshab",
+    age:28,
+    isActive:true,
+    address: {
+        vill:"Sarai",
+        city:"Vaishali",
+        pincode:844125,
+        data: {
+            hi:'Hi'
+        }
+    },
+    hobbies:["Cricket"]
+}
+// console.log(obj.address.data.hi)
+// console.log(obj['address']['pincode'])
+// console.log(typeof obj)
+
+
+// const x = 1
