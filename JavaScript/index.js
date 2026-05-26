@@ -151,23 +151,24 @@ const arr = ["Apple", "ball", "Cat"]
 // console.log(typeof arr)
 
 
-const obj = {
-    name:"Reshab",
-    age:28,
-    isActive:true,
-    address: {
-        vill:"Sarai",
-        city:"Vaishali",
-        pincode:844125,
-        data: {
-            hi:'Hi'
-        }
-    },
-    hobbies:["Cricket"]
-}
+// const obj = {
+//     name:"Reshab",
+//     age:28,
+//     isActive:true,
+//     address: {
+//         vill:"Sarai",
+//         city:"Vaishali",
+//         pincode:844125,
+//         data: {
+//             hi:'Hi'
+//         }
+//     },
+//     hobbies:["Cricket"]
+// }
 // console.log(obj.address.data.hi)
 // console.log(obj['address']['pincode'])
 // console.log(typeof obj)
 
 
 // const x = 1
+
