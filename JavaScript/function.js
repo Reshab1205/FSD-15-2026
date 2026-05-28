@@ -29,18 +29,63 @@
 
 // checkOddEven()
 
-const arr = [0,1,2,3,4,5,6,7,8,9,10,true]
+// const arr = [0,1,2,3,4,5,6,7,8,9,10,true]
 
-function checkOddEvenInArr(a) {
-    for(let i of a) {
-        if(i % 2 === 0) {
-            console.log(`The number ${i} is Even`)
-        } else if(i % 2 === 1) {
-            console.log(`The number ${i} is ODD`)
-        } else {
-            console.log('Hello')
-        }
-    }
+// const obj = {
+//     name:"Reshab",
+//     lname:"Kumar",
+//     age:28
+// }
+// console.log(obj['name'])
+
+// for(let i in obj) {
+//     console.log(obj[i])
+// }
+
+// function checkOddEvenInArr(a) {
+//     for(let i of a) {
+//         if(i % 2 === 0) {
+//             console.log(`The number ${i} is Even`)
+//         } else if(i % 2 === 1) {
+//             console.log(`The number ${i} is ODD`)
+//         } else {
+//             console.log('Hello')
+//         }
+//     }
+// }
+
+// checkOddEvenInArr(arr)
+
+// console.log(greet())
+
+// function greet() {
+//     const a = 'Hello Everyone'
+//     return a
+// }
+
+// const x = function greet() {
+//     const a = 'Hii Everyone'
+//     console.log('a', a)
+// }
+// console.log(x())
+
+
+
+
+
+const greet = () => {
+    console.log('Hello')
 }
 
-checkOddEvenInArr(arr)
+greet = 10
+
+greet()
+// const x = greet()
+// console.log(x)
+
+
+
+
+
+
+
