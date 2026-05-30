@@ -69,20 +69,63 @@
 // }
 // console.log(x())
 
+// const greet = () => {
+//     console.log('Hello')
+// }
 
+// greet = 10
 
-
-
-const greet = () => {
-    console.log('Hello')
-}
-
-greet = 10
-
-greet()
+// greet()
 // const x = greet()
 // console.log(x)
 
+// const arr = [1,2,true,"Reshab",5,6,{name:"Reshab"}, [7,8]]
+
+// const a = JSON.stringify(arr)
+// const d = JSON.parse(a)
+// console.log(typeof d)
+// console.log(JSON.stringify(a))
+
+// function checkType(x) {
+//     if(typeof x === 'object' && x.length > 0) {
+//         for(let i of x) {
+//             console.log(`Type of ${JSON.stringify(i)} is ${typeof i}`)
+//         }
+//     } else {
+//         console.log('Send an array')
+//     }
+// }
+
+// checkType(a)
+
+
+const arr = [1,2,3,4,5]
+
+const obj = {
+    name:"Reshab",
+    age:28
+}
+
+// const obj1 = {
+//     city:"Bhopal"
+// }
+
+// const x = {...obj, ...obj1}
+const {name, ...x} =obj
+console.log(x)
+
+// const [x,y,...rest] = arr
+// console.log(rest)
+
+// const arr1 = [6,7,8,9]
+// // [1,2,3,4,5,6,7,8,9]
+
+// const x = [...arr, ...arr1]
+// console.log(x)
+
+// const x = arr.at(0)
+// const y = arr.concat(arr1)
+// console.log(y)
 
 
 
